@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>sketch_3</title>
+
+	<script src="libraries/p5.js"></script>
+	<script src="libraries/p5.dom.js"></script>
+	<script src="libraries/p5.sound.js"></script>
+	<script src="sketch.js"></script>
+
+	<style>
+		body {
+			margin:0;
+			padding:0;
+			overflow: hidden;
+		}
+		canvas {
+			margin:auto;
+		}
+	</style>
+</head>
+<body>
+	<p>
+		word: <input id="word">
+		<br/>
+		score: <input id="score">
+		<button id="submit"> submit </button>
+	</p>
+
+	<p>
+		Type here: </br>
+    <textarea  id="txtinput" rows="10" cols="50">A kitten is a juvenile cat. After being born, kittens are totally dependent on their mother for survival and they do not normally open their eyes until after seven to ten days. After about two weeks, kittens quickly develop and begin to explore the world outside the nest. After a further three to four weeks, they begin to eat solid food and grow adult teeth. Domestic kittens are highly social animals and usually enjoy human companionship.
+		</textarea>
+		<button id="analyze"> submit </button>
+	</p>
+
+	<p id="scoreP"></p>
+	<p id="comparativeP"></p>
+	<p id="wordList"></p>
+</body>
+</html>
